@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+/********************************************************************************/
+footer {
+    text-align: center;
+}
+/********************************************************************************/
+.container { 
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clearfix::after {         
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.font {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+/********************************************************************************/
+/* Nav */
+nav .logo {
+    height: 50px;
+}
+
+nav ul {
+    margin-left: -5px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 24px 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #8a8a8a;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+/* Hero section*/
+.hero-section {
+    height: 350px;
+    margin-bottom: 20px;
+    position: relative;
+    
+}
+
+.hero-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-opacity::before {
+    content: "";
+    position: absolute;
+    border-radius: 7px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.hero-text {
+    position: absolute;
+    top: 225px;
+    left: 40px;
+    width: 50%;
+    color: white;
+}
+
+.hero-text h2 {
+    font-weight: 400;
+}
+
+/* Titolo */
+.container-header {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+p.p{
+    color: #929292;
+}
+
+/* Row */
+.row {
+    height: 385px;
+}
+
+.col {
+    float: left;
+    height: 100%;
+}
+
+.left {
+    width: 20%;
+}
+
+.col.center {
+    width: 60%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* Columns img*/
+.col-img {
+    height: 40%;
+    position: relative;
+}
+
+.col-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Columns text*/
+.col-text {
+    height: 60%;
+    padding-top: 15px;
+}
+
+.col-text h4 {
+    font-weight: 500;
+}
+
+.col-text p {
+    color: #929292;
+    padding-top: 7px;
+    font-size: 12px;
+}
+
+
+/* Footer */
+footer h4 {
+    font-weight: 400;
+}
+
+h4 span {
+    color: #ff0000;
+}
